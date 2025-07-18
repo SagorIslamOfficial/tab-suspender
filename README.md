@@ -11,8 +11,6 @@ Full-Stack Web Developer with expertise in Laravel, WordPress, and modern web te
 
 # Tab Suspender
 
-**Created by [Your Name or Organization]**
-
 A Chrome extension that automatically suspends inactive tabs to save memory, improve performance, and extend battery life.
 
 ## Features
