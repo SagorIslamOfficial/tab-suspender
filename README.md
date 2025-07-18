@@ -1,15 +1,13 @@
----
 **Created by Muhammad Alamin Islam (Sagor)**  
 - GitHub: [SagorIslamOfficial](https://github.com/SagorIslamOfficial)  
 - Website: [sagorislam.dev](https://sagorislam.dev)  
 - LinkedIn: [in/sagorislamofficial](https://www.linkedin.com/in/sagorislamofficial/)  
-- Company: ThemeXpert  
+- Company: [ThemeXpert](https://themexpert.com/)  
 - Available: Open to work, projects, and collaborations worldwide  
 - Contact: alaminislam1274@gmail.com | sagor_islam@icloud.com  
 
 **About me:**  
 Full-Stack Web Developer with expertise in Laravel, WordPress, and modern web technologies. Passionate about building scalable solutions, learning new technologies, and contributing to open source. Based in Dhaka, Bangladesh, and always eager to collaborate on innovative projects.
----
 
 # Tab Suspender
 
