@@ -1,0 +1,143 @@
+/*
+  Name: Muhammad Alamin Islam (Sagor)
+  GitHub: https://github.com/SagorIslamOfficial
+  Website: https://sagorislam.dev
+  LinkedIn: https://www.linkedin.com/in/sagorislamofficial/
+  Company: ThemeXpert
+  Available: Open to work, projects, and collaborations worldwide
+  Contact: alaminislam1274@gmail.com | sagor_islam@icloud.com
+
+  About me:
+  Full-Stack Web Developer with expertise in Laravel, WordPress, and modern web technologies. Passionate about building scalable solutions, learning new technologies, and contributing to open source. Based in Dhaka, Bangladesh, and always eager to collaborate on innovative projects.
+*/
+/* options.css - Polished styling for Tab Suspender options page */
+body {
+  font-family: Arial, sans-serif;
+  width: 380px;
+  margin: 0;
+  padding: 0;
+  background: #f8f9fa;
+}
+header {
+  background: #1976d2;
+  color: #fff;
+  padding: 16px;
+  text-align: center;
+}
+section {
+  background: #fff;
+  margin: 18px 16px 18px 16px;
+  padding: 18px 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+h2 {
+  color: #1976d2;
+  margin-top: 0;
+}
+#whitelist-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 10px 0;
+}
+#whitelist-section li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px 0;
+  border-bottom: 1px solid #ececec;
+  font-size: 15px;
+}
+#whitelist-section button {
+  background: #1976d2;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 4px 12px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+#whitelist-section button:hover {
+  background: #1565c0;
+}
+#whitelist-add-form {
+  margin-top: 10px;
+  display: flex;
+  gap: 8px;
+}
+#whitelist-input {
+  flex: 1;
+  padding: 6px 8px;
+  border: 1px solid #bdbdbd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+.feedback {
+  color: #43a047;
+  font-size: 13px;
+  margin-top: 6px;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+  cursor: help;
+}
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 220px;
+  background-color: #333;
+  color: #fff;
+  text-align: left;
+  border-radius: 6px;
+  padding: 8px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -110px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 13px;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+#per-domain-timers-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 10px 0;
+}
+#per-domain-timers-section li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px 0;
+  border-bottom: 1px solid #ececec;
+  font-size: 15px;
+}
+#per-domain-timers-section button {
+  background: #1976d2;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 4px 12px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+#per-domain-timers-section button:hover {
+  background: #1565c0;
+}
+#per-domain-timers-add-form {
+  margin-top: 10px;
+  display: flex;
+  gap: 8px;
+}
+#per-domain-domain-input, #per-domain-minutes-input {
+  padding: 6px 8px;
+  border: 1px solid #bdbdbd;
+  border-radius: 4px;
+  font-size: 14px;
+} 

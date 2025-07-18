@@ -1,0 +1,57 @@
+/*
+  Name: Muhammad Alamin Islam (Sagor)
+  GitHub: https://github.com/SagorIslamOfficial
+  Website: https://sagorislam.dev
+  LinkedIn: https://www.linkedin.com/in/sagorislamofficial/
+  Company: ThemeXpert
+  Available: Open to work, projects, and collaborations worldwide
+  Contact: alaminislam1274@gmail.com | sagor_islam@icloud.com
+
+  About me:
+  Full-Stack Web Developer with expertise in Laravel, WordPress, and modern web technologies. Passionate about building scalable solutions, learning new technologies, and contributing to open source. Based in Dhaka, Bangladesh, and always eager to collaborate on innovative projects.
+*/
+/* Created by [Your Name or Organization] */
+/* suspended.css - Styling for suspended tab page */
+body {
+  background: #f8f9fa;
+  color: #333;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  padding: 32px 24px;
+  text-align: center;
+}
+h1 {
+  color: #1976d2;
+  margin-bottom: 16px;
+}
+#original-url {
+  margin: 16px 0;
+  word-break: break-all;
+}
+#restore-btn {
+  background: #1976d2;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 24px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+#restore-btn:disabled {
+  background: #aaa;
+  cursor: not-allowed;
+}
+#restore-btn:hover:not(:disabled) {
+  background: #1565c0;
+} 

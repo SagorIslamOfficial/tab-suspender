@@ -1,0 +1,51 @@
+<!--
+  Name: Muhammad Alamin Islam (Sagor)
+  GitHub: https://github.com/SagorIslamOfficial
+  Website: https://sagorislam.dev
+  LinkedIn: https://www.linkedin.com/in/sagorislamofficial/
+  Company: ThemeXpert
+  Available: Open to work, projects, and collaborations worldwide
+  Contact: alaminislam1274@gmail.com | sagor_islam@icloud.com
+
+  About me:
+  Full-Stack Web Developer with expertise in Laravel, WordPress, and modern web technologies. Passionate about building scalable solutions, learning new technologies, and contributing to open source. Based in Dhaka, Bangladesh, and always eager to collaborate on innovative projects.
+-->
+<!-- Created by [Your Name or Organization] -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=400, initial-scale=1.0">
+  <title>Tab Suspender Options</title>
+  <link rel="stylesheet" href="options.css">
+</head>
+<body>
+  <header>
+    <h1>Tab Suspender Options</h1>
+  </header>
+  <section id="general-settings">
+    <h2>General Settings</h2>
+    <p>Configure suspension timers and preferences here. (Coming soon)</p>
+  </section>
+  <section id="whitelist-section">
+    <h2>Whitelist Management <span class="tooltip">&#9432;<span class="tooltiptext">You can add domains (e.g. example.com) or regex patterns (e.g. /.*mail.*/). Whitelisted tabs will never be suspended.</span></span></h2>
+    <p>Domains/URLs in this list will never be suspended.</p>
+    <ul id="whitelist-list">
+      <!-- Whitelist entries will be listed here -->
+    </ul>
+    <p><em>Whitelist editing coming soon...</em></p>
+  </section>
+  <section id="per-domain-timers-section">
+    <h2>Per-Domain Timers <span class="tooltip">&#9432;<span class="tooltiptext">Set custom suspension timeouts (in minutes) for specific domains. Default is 30 minutes.</span></span></h2>
+    <ul id="per-domain-timers-list">
+      <!-- Per-domain timer entries will be listed here -->
+    </ul>
+    <form id="per-domain-timers-add-form">
+      <input type="text" id="per-domain-domain-input" placeholder="Domain (e.g. example.com)" required style="width: 160px;">
+      <input type="number" id="per-domain-minutes-input" placeholder="Minutes" min="1" required style="width: 80px;">
+      <button type="submit">Add</button>
+    </form>
+  </section>
+  <script src="options.js"></script>
+</body>
+</html> 
